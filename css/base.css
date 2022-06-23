@@ -65,8 +65,8 @@ a {
 .no-touch a:hover,
 a.attivo {
     text-decoration: none;
-    color: #A4C228;
     outline: none;
+    opacity: .6;
 }
 
 a span {
@@ -932,6 +932,44 @@ Se serve, aggiungerlo anche in altre pagine */
     }
 }
 
+.navigation__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.navigation__list li {
+    margin-right: 20px;
+}
+
+.navigation__list a {
+    color: #fff;
+}
+
+.social-list.social-list--mobile-hide {
+    display: flex;
+}
+
+.social-list.social-list--mobile-hide li {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.social-list.social-list--mobile-hide li a {
+    height: 20px;
+}
+
 @media screen and (min-width: 768px) {
     .footer {
         padding: 60px 0;
@@ -954,13 +992,13 @@ Se serve, aggiungerlo anche in altre pagine */
 .header {
     position: relative;
     box-shadow: none;
-    background-color: #191919;
+    background-color: #313131;
     border-color: #191919;
 }
 .header__top {
     text-align: center;
     float: none;
-    width: 1170px;
+    width: 75%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
