@@ -738,11 +738,11 @@ Se serve, aggiungerlo anche in altre pagine */
 }
 
 #page_footer .bottom_links>a.preventivo {
-    background-image: url(/imgs/content/preventivo.jpg);
+    background-image: url('./../imgs/content/preventivo.jpg');
 }
 
 #page_footer .bottom_links>a.catalogo {
-    background-image: url(/imgs/content/catalogo.jpg);
+    background-image: url('./../imgs/content/catalogo.jpg');
 }
 
 #page_footer .bottom_links>a>div {
@@ -757,7 +757,7 @@ Se serve, aggiungerlo anche in altre pagine */
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background: url(/imgs/layout/freccia-bianca-right.svg) 0 100% no-repeat;
+    background: url('./../imgs/layout/freccia-bianca-right.svg') 0 100% no-repeat;
 }
 
 #page_footer .bottom_links>a>div h4 {
