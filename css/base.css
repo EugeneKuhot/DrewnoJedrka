@@ -702,6 +702,7 @@ Se serve, aggiungerlo anche in altre pagine */
     padding-bottom: 100px;
     position: relative;
     z-index: 10;
+    width: 1000px;
 }
 
 .page_title {
@@ -941,6 +942,7 @@ Se serve, aggiungerlo anche in altre pagine */
     padding-bottom: 14px;
     color: #fff;
     font-size: 16px;
+    border-top: 1px solid #fff;
 }
 
 .navigation__list li {
@@ -978,7 +980,8 @@ Se serve, aggiungerlo anche in altre pagine */
 
 .header__top .social-list {
     margin-top: 0;
-    padding-top: 30px;
+    padding-top: 0;
+    position: absolute;
 }
 
 .footer {
@@ -1003,6 +1006,7 @@ Se serve, aggiungerlo anche in altre pagine */
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 15px;
 }
 
 @media screen and (min-width: 768px) {
