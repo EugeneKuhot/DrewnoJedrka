@@ -992,7 +992,7 @@ Se serve, aggiungerlo anche in altre pagine */
 .header {
     position: relative;
     box-shadow: none;
-    background-color: #313131;
+    background-color: #000;
     border-color: #191919;
 }
 .header__top {
