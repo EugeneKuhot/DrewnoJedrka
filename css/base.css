@@ -942,7 +942,8 @@ Se serve, aggiungerlo anche in altre pagine */
     padding-bottom: 14px;
     color: #fff;
     font-size: 16px;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #ffffff52;
+    margin: 0;
 }
 
 .navigation__list li {
