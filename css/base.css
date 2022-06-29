@@ -959,8 +959,8 @@ Se serve, aggiungerlo anche in altre pagine */
 }
 
 .social-list.social-list--mobile-hide li {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -983,6 +983,7 @@ Se serve, aggiungerlo anche in altre pagine */
     margin-top: 0;
     padding-top: 0;
     position: absolute;
+    top: 10px;
 }
 
 .footer {
