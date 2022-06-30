@@ -983,7 +983,7 @@ Se serve, aggiungerlo anche in altre pagine */
     margin-top: 0;
     padding-top: 0;
     position: absolute;
-    top: 10px;
+    top: 23px;
 }
 
 .footer {
@@ -1006,9 +1006,7 @@ Se serve, aggiungerlo anche in altre pagine */
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding: 15px 0 12px;
 }
 
 @media screen and (min-width: 768px) {
