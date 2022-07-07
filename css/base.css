@@ -16,6 +16,31 @@ html.loading>* {
     opacity: 0;
 }
 
+.submenu-wrapper {
+    position: relative;
+}
+
+.submenu-wrapper:hover .about-me {
+    display: block;
+}
+
+.about-me {
+    position: absolute;
+    list-style: none;
+    text-transform: capitalize;
+    background: #000;
+    z-index: 99;
+    padding: 10px 15px;
+    left: -15px;
+    display: none;
+}
+
+.about-me a {
+    cursor: pointer;
+    display: block;
+    padding: 5px 0px;
+}
+
 body {
     min-height: 100%;
     padding: 1px 0 0 0;
