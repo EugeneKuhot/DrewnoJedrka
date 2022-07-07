@@ -967,7 +967,8 @@ Se serve, aggiungerlo anche in altre pagine */
     padding-bottom: 14px;
     color: #fff;
     font-size: 16px;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #ffffff52;
+    margin: 0;
 }
 
 .navigation__list li {
@@ -983,8 +984,8 @@ Se serve, aggiungerlo anche in altre pagine */
 }
 
 .social-list.social-list--mobile-hide li {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1007,6 +1008,7 @@ Se serve, aggiungerlo anche in altre pagine */
     margin-top: 0;
     padding-top: 0;
     position: absolute;
+    top: 23px;
 }
 
 .footer {
@@ -1029,9 +1031,7 @@ Se serve, aggiungerlo anche in altre pagine */
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
+    padding: 15px 0 12px;
 }
 
 @media screen and (min-width: 768px) {
