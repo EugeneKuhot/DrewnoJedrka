@@ -972,7 +972,9 @@ Se serve, aggiungerlo anche in altre pagine */
 }
 
 .navigation__list li {
-    margin-right: 20px;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .navigation__list a {
