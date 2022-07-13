@@ -60,6 +60,23 @@ body {
     text-size-adjust: none;
 }
 
+.about-me-img {
+    display: block;
+    margin: 50px auto;
+    width: 60%;
+}
+
+.gallery-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-wrap img{
+    width: 48%;
+    margin-bottom: 30px;
+}
+
 table {
     margin: 0px;
     padding: 0px;
@@ -759,15 +776,17 @@ Se serve, aggiungerlo anche in altre pagine */
 }
 
 .no-touch #page_footer .bottom_links>a:hover {
-    opacity: .6;
+    opacity: .4;
 }
 
 #page_footer .bottom_links>a.preventivo {
     background-image: url('./../imgs/content/preventivo.jpg');
+    opacity: .6;
 }
 
 #page_footer .bottom_links>a.catalogo {
     background-image: url('./../imgs/content/catalogo.jpg');
+    opacity: .6;
 }
 
 #page_footer .bottom_links>a>div {
