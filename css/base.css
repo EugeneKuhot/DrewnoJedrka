@@ -762,7 +762,7 @@ Se serve, aggiungerlo anche in altre pagine */
 }
 
 #page_footer .bottom_links>a {
-    width: 50%;
+    width: 100%;
     height: 292px;
     display: block;
     box-sizing: border-box;
@@ -782,6 +782,7 @@ Se serve, aggiungerlo anche in altre pagine */
 #page_footer .bottom_links>a.preventivo {
     background-image: url('./../imgs/content/preventivo.jpg');
     opacity: .6;
+    background-position: 0 -365px;
 }
 
 #page_footer .bottom_links>a.catalogo {
