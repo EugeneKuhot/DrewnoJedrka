@@ -24,6 +24,16 @@ html.loading>* {
     display: block;
 }
 
+.header__item--big a {
+    max-width: 220px;
+    display: block;
+    margin: auto;
+}
+
+.header__item--big img {
+    width: 100%;
+}
+
 .about-me {
     position: absolute;
     list-style: none;
@@ -744,7 +754,7 @@ Se serve, aggiungerlo anche in altre pagine */
     padding-bottom: 100px;
     position: relative;
     z-index: 10;
-    width: 1000px;
+    max-width: 1000px;
 }
 
 .page_title {
@@ -942,6 +952,11 @@ Se serve, aggiungerlo anche in altre pagine */
 .service_pages #contenitore {
     padding-top: 100px;
     flex-grow: 1;
+}
+
+.abouttext {
+    width: 95%;
+    margin: auto;
 }
 
 @media only screen and (max-width: 1280px) {
