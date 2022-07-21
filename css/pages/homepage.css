@@ -98,14 +98,8 @@
     margin: 0px auto 70px;
 }
 
-.content_text .text {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
 .content_text .text p {
-   width: 45%;
+   text-align: center;
 }
 
 .content_text .text>*:first-child {

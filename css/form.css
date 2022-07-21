@@ -23,7 +23,7 @@ select {
     -ms-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'LibreFranklin', Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #FFF;
     background: #000;
@@ -46,7 +46,7 @@ input[type="submit"] {
     padding: 19px 40px;
     border: none;
     border-spacing: 0;
-    font-family: 'LibreFranklin', Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     letter-spacing: .88px;
     text-transform: uppercase;
@@ -97,7 +97,7 @@ form .label {
     display: block;
     position: relative;
     float: left;
-    font-family: 'LibreFranklin', Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 form .label.float_right {

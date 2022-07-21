@@ -25,7 +25,7 @@ html.loading>* {
 }
 
 .header__item--big a {
-    max-width: 220px;
+    max-width: 245px;
     display: block;
     margin: auto;
 }
@@ -58,7 +58,7 @@ body {
     line-height: 1.5;
     position: relative;
     text-align: left;
-    font-family: 'LibreFranklin', Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #FFF;
@@ -80,12 +80,12 @@ body {
 .gallery-wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 65px;
 }
 
 .gallery-wrap img{
-    width: 32%;
+    width: 29%;
     margin-bottom: 30px;
 }
 
@@ -97,7 +97,7 @@ body {
 table {
     margin: 0px;
     padding: 0px;
-    font-family: 'LibreFranklin', Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
     text-align: left;
 }
@@ -187,11 +187,16 @@ section {
     padding: 80px 0;
 }
 
+.address a {
+    font-weight: 400;
+    color: #fff;
+}
+
 button {
     padding: 0;
     border: none;
     border-spacing: 0;
-    font-family: 'LibreFranklin', Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     background: none;
     cursor: pointer;
 }
@@ -1039,14 +1044,15 @@ Se serve, aggiungerlo anche in altre pagine */
 }
 
 .social-list.social-list--mobile-hide li {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #000;
     border: 1px solid #fff;
     border-radius: 50%;
+    margin-right: 10px;
 }
 
 .social-list.social-list--mobile-hide li a {
@@ -1057,6 +1063,10 @@ Se serve, aggiungerlo anche in altre pagine */
     .footer {
         padding: 60px 0;
     }
+}
+
+.footer .social-list {
+    margin-left: 44%;
 }
 
 .header__top .social-list {
@@ -1094,6 +1104,18 @@ Se serve, aggiungerlo anche in altre pagine */
         display: none;
     }
 }
+@media screen and (max-width: 450px) {
+    .header__top {
+        position: relative;
+    }
+    .header__top .social-list {
+        width: 100%;
+        justify-content: space-between
+    }
+    .header__top .social-list li {
+        margin: 0;
+    }
+}
 
 
 .social {
@@ -1107,6 +1129,7 @@ Se serve, aggiungerlo anche in altre pagine */
 }
 
 .social-list {
+    display: flex;
     list-style-type: none;
     padding: 0;
     margin: 0;
